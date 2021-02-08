@@ -29,9 +29,11 @@ const SettingsMW = ({ dispatch }) => next => action => {
     }
 
     case ACTION_TYPES.SETTINGS_SAVE: {
-      // Validation
-      if (!validateTax(true, action.payload.invoice.tax)) break;
-      if (!validateCurrency(true, action.payload.invoice.currency)) break;
+      // Validation 
+      const {tax: taxIsRequired, currency: currencyIsRequired} = action.payload.invoice.required_fields;
+      
+      if (!validateTax(taxIsRequired, action.payload.invoice.tax)) break;
+      if (!validateCurrency(currencyIsRequired, action.payload.invoice.currency)) break;
       // Change Preview Profile
       const profile = appConfig.getSync('profile');
       const newProfile = action.payload.profile;
