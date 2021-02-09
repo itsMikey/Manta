@@ -6,6 +6,6 @@ import { shallow, mount } from 'enzyme';
 // import AppMain from '../AppMain';
 
 describe('Renders correctly to the DOM', () => {
-  it('render only one component at a time');
-  it('render correct component based on prop');
+  it.skip('render only one component at a time', () => {});
+  it.skip('render correct component based on prop', () => {});
 });

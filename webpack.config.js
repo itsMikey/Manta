@@ -109,10 +109,17 @@ const commonConfig = merge([
     module: {
       rules: [
         {
-          test: /\.jsx$/,
-          exclude: [path.resolve(__dirname, 'node_modules')],
-          loader: 'babel-loader',
-        },
+            test: /\.jsx$/,
+            exclude: [path.resolve(__dirname, 'node_modules')],
+            use: {
+              loader: 'babel-loader',
+              options: {
+                presets: [
+                  ['@babel/preset-env', { targets: "defaults" }]
+                ]
+              }
+            }
+          }
       ],
     },
 

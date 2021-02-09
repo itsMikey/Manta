@@ -5,16 +5,16 @@ exports[`Renders correctly to the DOM matches snapshot 1`] = `
   className="col-lg-6"
 >
   <div
-    className="Invoice__Wrapper-cjNJPS coWKLW"
+    className="Invoice__Wrapper-sc-__sc-1l0yg49-0 jRwrmg"
   >
     <div
-      className="Invoice__StatusBar-jBWtSa joKiG"
+      className="Invoice__StatusBar-sc-__sc-1l0yg49-2 jkBjSD"
     />
     <div
-      className="Invoice__Header-cGSpHV gmDFcR"
+      className="Invoice__Header-sc-__sc-1l0yg49-1 kvQNRY"
     >
       <div
-        className="Invoice__Status-fxIELu bbALRd"
+        className="Invoice__Status-sc-__sc-1l0yg49-3 fmGZyC"
       >
         <span>
           <i
@@ -24,10 +24,10 @@ exports[`Renders correctly to the DOM matches snapshot 1`] = `
         </span>
       </div>
       <div
-        className="Invoice__ButtonsGroup-PwNbx emusdh"
+        className="Invoice__ButtonsGroup-sc-__sc-1l0yg49-4 eGUMKJ"
       >
         <button
-          className="Button__ButtonLinkStyle-caVwCA imXwRc"
+          className="Button__ButtonLinkStyle-sc-__sc-43qggg-1 iaiWDU"
           onClick={[Function]}
         >
           <i
@@ -35,7 +35,7 @@ exports[`Renders correctly to the DOM matches snapshot 1`] = `
           />
         </button>
         <button
-          className="Button__ButtonLinkStyle-caVwCA imXwRc"
+          className="Button__ButtonLinkStyle-sc-__sc-43qggg-1 iaiWDU"
           onClick={[Function]}
         >
           <i
@@ -45,13 +45,13 @@ exports[`Renders correctly to the DOM matches snapshot 1`] = `
       </div>
     </div>
     <div
-      className="Invoice__Body-eBItTh igYqzw"
+      className="Invoice__Body-sc-__sc-1l0yg49-5 vZBtw"
     >
       <div
-        className="Invoice__Row-hFNBjq cQdnct"
+        className="Invoice__Row-sc-__sc-1l0yg49-7 bvqEOO"
       >
         <div
-          className="Invoice__Field-cZpgXH fDrpWO"
+          className="Invoice__Field-sc-__sc-1l0yg49-8 aaQuD"
         >
           <label>
             Pending
@@ -62,10 +62,10 @@ exports[`Renders correctly to the DOM matches snapshot 1`] = `
         </div>
       </div>
       <div
-        className="Invoice__Row-hFNBjq cQdnct"
+        className="Invoice__Row-sc-__sc-1l0yg49-7 bvqEOO"
       >
         <div
-          className="Invoice__Field-cZpgXH fDrpWO"
+          className="Invoice__Field-sc-__sc-1l0yg49-8 aaQuD"
         >
           <label>
             Pending
@@ -75,7 +75,7 @@ exports[`Renders correctly to the DOM matches snapshot 1`] = `
           </p>
         </div>
         <div
-          className="Invoice__Field-cZpgXH fDrpWO"
+          className="Invoice__Field-sc-__sc-1l0yg49-8 aaQuD"
         >
           <label>
             Pending
@@ -89,10 +89,10 @@ exports[`Renders correctly to the DOM matches snapshot 1`] = `
         </div>
       </div>
       <div
-        className="Invoice__Row-hFNBjq cQdnct"
+        className="Invoice__Row-sc-__sc-1l0yg49-7 bvqEOO"
       >
         <div
-          className="Invoice__Field-cZpgXH fDrpWO"
+          className="Invoice__Field-sc-__sc-1l0yg49-8 aaQuD"
         >
           <label>
             Pending
@@ -102,7 +102,7 @@ exports[`Renders correctly to the DOM matches snapshot 1`] = `
           </p>
         </div>
         <div
-          className="Invoice__Field-cZpgXH fDrpWO"
+          className="Invoice__Field-sc-__sc-1l0yg49-8 aaQuD"
         >
           <label>
             Pending
@@ -112,14 +112,14 @@ exports[`Renders correctly to the DOM matches snapshot 1`] = `
       </div>
     </div>
     <div
-      className="Invoice__Footer-dcHDEd cJiGTY"
+      className="Invoice__Footer-sc-__sc-1l0yg49-6 hbsOTt"
     >
       <div>
         <div
-          className="SplitButton__Wrapper-jsRMIo gVGdJM"
+          className="SplitButton__Wrapper-sc-__py44fa-0 hrSgYZ"
         >
           <div
-            className="SplitButton__ButtonsGroup-hdzsBq dhTQNh"
+            className="SplitButton__ButtonsGroup-sc-__py44fa-1 enzDEk"
           >
             <a
               href="#"
@@ -139,13 +139,13 @@ exports[`Renders correctly to the DOM matches snapshot 1`] = `
         </div>
       </div>
       <button
-        className="Button__ButtonStyle-coFSWz coAhhp"
+        className="Button__ButtonStyle-sc-__sc-43qggg-0 iMcHln"
         onClick={[Function]}
       >
         Pending
       </button>
       <button
-        className="Button__ButtonStyle-coFSWz coAhhp"
+        className="Button__ButtonStyle-sc-__sc-43qggg-0 iMcHln"
         onClick={[Function]}
       >
         Pending

@@ -9,8 +9,8 @@ import Message from '../Message';
 
 describe('Renders correct style', () => {
   it('renders a DIV element', () => {
-    const tree = renderer.create(<Message text="foo" />).toJSON();
-    expect(tree).toHaveStyleRule('color', '#4f555c');
+    const message = renderer.create(<Message text="foo" />).toJSON();
+    expect(message).toHaveStyleRule('color', '#4f555c');
   });
 });
 

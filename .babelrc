@@ -1,9 +1,9 @@
 {
-  "presets": [ "es2015", "react" ],
+  "presets": [ "@babel/preset-env", "@babel/preset-react" ],
   "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
     "react-hot-loader/babel",
     "transform-class-properties",
-    "transform-object-rest-spread",
-    "styled-components"
+    ["styled-components", { "ssr": true, "namespace": "sc-" }]
   ]
 }

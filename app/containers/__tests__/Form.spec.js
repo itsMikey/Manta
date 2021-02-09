@@ -1,2 +1,2 @@
 import Form from '../Form';
-it('placeholder');
+it('placeholder', () => {});

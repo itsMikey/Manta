@@ -1,2 +1,4 @@
 import General from '../General';
-it('placeholder');
+it.skip('placeholder', () => {
+    
+});

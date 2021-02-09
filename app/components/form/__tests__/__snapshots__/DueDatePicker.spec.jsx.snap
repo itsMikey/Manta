@@ -2,7 +2,7 @@
 
 exports[`Renders correctly to the DOM matches snapshot 1`] = `
 <div
-  className="DueDatePicker__Container-jrhXSv dVnPcX"
+  className="DueDatePicker__Container-sc-__wl47zd-0 bHXqNM"
 >
   <div
     className="SingleDatePicker"

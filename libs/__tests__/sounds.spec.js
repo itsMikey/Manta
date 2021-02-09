@@ -1,2 +1,2 @@
 import sounds from '../sounds';
-it('placeholder');
+it.skip('placeholder', () => {});

@@ -27,5 +27,5 @@ describe('Renders correctly to the DOM', () => {
   //   const sideBar = shallow(<ActiveIndicator/>);
   //   expect(wrapper.contains(sideBar)).toEqual(true);
   });
-  it('shows active indicator at the correct position');
+  it('shows active indicator at the correct position', () => {});
 });

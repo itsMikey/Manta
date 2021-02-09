@@ -1,5 +1,4 @@
 const webpack = require('webpack');
-const BabelWebpackPlugin = require('babel-minify-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const DuplicatePackageCheckerPlugin = require('@cerner/duplicate-package-checker-webpack-plugin');
@@ -21,18 +20,20 @@ exports.generateSourceMaps = ({ type }) => ({
 });
 
 // Check Duplicates
-exports.checkDuplicate = options => ({
+exports.checkDuplicate = (options) => ({
   plugins: [new DuplicatePackageCheckerPlugin(options)],
 });
 
 // Clean between builds
-exports.clean = path => ({
+exports.clean = (path) => ({
   plugins: [new CleanWebpackPlugin([path])],
 });
 
 // JS Minification
 exports.minifyJavaScript = () => ({
-  plugins: [new BabelWebpackPlugin()],
+  optimization: {
+    minimize: false,
+  },
 });
 
 // Analyzing Bundle

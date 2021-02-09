@@ -294,10 +294,11 @@ describe('getInvoiceData', () => {
   });
 
   // TODO
-  it('set status as pending when creating a new invoice');
-  it('always generate _id when creating a new invoice');
-  it('does not include _rev when creating a new invoice');
-  it('always recalculate subTotal and grandTotal');
+  it.skip('set status as pending when creating a new invoice', () => {});
+  it.skip('always generate _id when creating a new invoice', () => {});
+  it.skip('does not include _rev when creating a new invoice', () => {});
+  it.skip('always recalculate subTotal and grandTotal', () => {});
+  
 });
 
 describe('validateFormData', () => {

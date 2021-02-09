@@ -1,2 +1,2 @@
 import Contacts from '../Contacts';
-it('placeholder');
+it('placeholder', () => {});

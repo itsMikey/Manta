@@ -2,40 +2,40 @@
 
 exports[`render component correctly matches snapshot 1`] = `
 <div
-  className="Layout__PageWrapperStyle-iMhhJx jVLYWQ"
+  className="Layout__PageWrapperStyle-sc-__vvwp4-2 cIxXxY"
 >
   <div
-    className="Layout__PageHeaderStyle-iGolPb jBPoCI"
+    className="Layout__PageHeaderStyle-sc-__vvwp4-3 fTQTWs"
   >
     <p
-      className="Layout__PageHeaderTitleStyle-dWMwjR hsLeeO"
+      className="Layout__PageHeaderTitleStyle-sc-__vvwp4-4 bsYElC"
     />
     <div
-      className="Layout__PageHeaderActionsStyle-eysiui fAXKb"
+      className="Layout__PageHeaderActionsStyle-sc-__vvwp4-5 jWaeiA"
     >
       <i
         className="ion-funnel"
       />
       <div
-        className="Button__ButtonsGroupStyle-kpiclP cdhXmK"
+        className="Button__ButtonsGroupStyle-sc-__sc-43qggg-2 cxUzXE"
       >
         <button
-          className="Button__ButtonStyle-coFSWz coAhhp"
+          className="Button__ButtonStyle-sc-__sc-43qggg-0 iMcHln"
           data-filter="paid"
           onClick={[Function]}
         />
         <button
-          className="Button__ButtonStyle-coFSWz coAhhp"
+          className="Button__ButtonStyle-sc-__sc-43qggg-0 iMcHln"
           data-filter="pending"
           onClick={[Function]}
         />
         <button
-          className="Button__ButtonStyle-coFSWz coAhhp"
+          className="Button__ButtonStyle-sc-__sc-43qggg-0 iMcHln"
           data-filter="refunded"
           onClick={[Function]}
         />
         <button
-          className="Button__ButtonStyle-coFSWz coAhhp"
+          className="Button__ButtonStyle-sc-__sc-43qggg-0 iMcHln"
           data-filter="cancelled"
           onClick={[Function]}
         />
@@ -43,7 +43,7 @@ exports[`render component correctly matches snapshot 1`] = `
     </div>
   </div>
   <div
-    className="Layout__PageContentStyle-dERDcF ciKDVW"
+    className="Layout__PageContentStyle-sc-__vvwp4-6 eMPpYo"
   >
     <div
       className="row"

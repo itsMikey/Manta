@@ -1,2 +1,2 @@
 import Settings from '../Settings';
-it('placeholder');
+it('placeholder', () => {});

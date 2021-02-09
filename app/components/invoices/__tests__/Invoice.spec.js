@@ -38,7 +38,7 @@ const duplicateInvoice = jest.fn();
 const setInvoiceStatus = jest.fn();
 const dateFormat = 'MM/DD/YY';
 const currencyPlacement = 'before';
-Date.now = jest.genMockFunction().mockReturnValue(0);
+Date.now = jest.fn().mockReturnValue(0);
 
 const t = jest.fn(status => {
   switch (status) {

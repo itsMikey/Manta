@@ -30,8 +30,9 @@ const SettingsMW = ({ dispatch }) => next => action => {
 
     case ACTION_TYPES.SETTINGS_SAVE: {
       // Validation 
-      const {tax: taxIsRequired, currency: currencyIsRequired} = action.payload.invoice.required_fields;
-      
+      const requiredFields = action.payload?.invoice?.required_fields || null;
+      const {tax: taxIsRequired, currency: currencyIsRequired} = requiredFields || {tax: true, currency: true};
+
       if (!validateTax(taxIsRequired, action.payload.invoice.tax)) break;
       if (!validateCurrency(currencyIsRequired, action.payload.invoice.currency)) break;
       // Change Preview Profile
